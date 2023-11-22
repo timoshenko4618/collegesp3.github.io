@@ -1,0 +1,19 @@
+.main_page_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    min-height: calc(70vh - 70px);
+}
+
+.header {
+    background-color: rgb(227, 193, 143);
+}
+
+.footer {
+    background-color: rgb(149, 218, 81);
+    height: 100px;
+}
+
+.prof {
+    background-color: rgb(120, 225, 227);
+}

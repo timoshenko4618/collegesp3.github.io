@@ -29,6 +29,22 @@ h2 {
 
 }
 
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5.2em;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px #032224;
+
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 12px #000000;
+
+}
+
 .main_page_grid {
     text-align: center;
     display: grid;
@@ -62,9 +78,23 @@ h2 {
     height: 100px;
 }
 
-.prof {
+.prof1 {
     min-height: auto;
     background-color: rgb(120, 225, 227);
+
+}
+.prof2 {
+    min-height: auto;
+    background-color: rgb(23, 114, 14)
+}
+.prof3 {
+    min-height: auto;
+    background-color: rgb(223, 21, 172);
+
+}
+.prof4 {
+    min-height: auto;
+    background-color: rgb(131, 216, 21)
 }
 
 .main_container {
@@ -89,6 +119,7 @@ h2 {
     font-family:  cursive;
     justify-content: space-around;
 }
+
 .podgrup{
     display: flex;
     flex-wrap: wrap;
@@ -129,3 +160,47 @@ h2 {
     border-radius: 10px;
 
 }
+.backtomain{
+    width: auto;
+    height:15px;
+    margin: 5px;
+    transition: 0.2s;
+    padding: 5px;
+    background: #23516e;
+    border-radius: 7px;
+    color: white;
+    text-decoration:none;
+    padding-bottom: 10px;
+    font-size: 15px;}
+
+    
+.bg3239{
+    background-image: url(../img/circus.jpg);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-color: rgb(31, 31, 5);
+}
+
+.sisadmin{
+width:180px;
+height:120px;
+}
+
+.digger{
+    width:190px;
+    height:130px;
+    }
+
+.logic{
+    width:190px;
+    height:130px;
+    }
+
+    .informat{
+        width:180px;
+        height:140px;
+        }
+
+
+
+    

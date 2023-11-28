@@ -45,6 +45,15 @@ h4 {
 
 }
 
+.dark {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4em;
+    color: rgb(179, 238, 18);
+    text-shadow: 2px 2px 12px rgb(179, 228, 18) 
+    {text-decoration: none};
+
+}
+
 .main_page_grid {
     text-align: center;
     display: grid;

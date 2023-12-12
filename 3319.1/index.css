@@ -1,0 +1,8 @@
+.get_maine_conteiner {
+	background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+	padding-bottom: 30px;
+	display: flex;
+	padding-left: 5px;
+	justify-content: space-evenly;
+}
+

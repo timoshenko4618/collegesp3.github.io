@@ -5,13 +5,13 @@ let resizeReset = function() {
   
   const opts = { 
     particleColor: "rgb(138, 43, 226)",
-    lineColor: "rgb(200,200,200)",
-    particleAmount: 2000,
+    lineColor: "rgb(138,43,226)",
+    particleAmount: 200,
     defaultSpeed: 1,
     variantSpeed: 1,
     defaultRadius: 2,
     variantRadius: 1,
-    linkRadius: 0,
+    linkRadius: 200,
   };
   
   window.addEventListener("resize", function(){

@@ -69,7 +69,7 @@ h4 {
 
 .header_container {
     display: grid;
-    grid-template-columns: 240px auto;
+    grid-template-columns: 1fr 4fr;
 }
 
 .header_container img{
@@ -80,7 +80,6 @@ h4 {
 }
 
 .header_logo {
-    width: 180px;
     margin: auto;
     display: block;
 }

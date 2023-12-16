@@ -49,9 +49,8 @@ h4 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4em;
     color: rgb(179, 238, 18);
-    text-shadow: 2px 2px 12px rgb(179, 228, 18) 
-    text-decoration: none;
-
+    text-shadow: 2px 2px 12px rgb(179, 228, 18);
+    text-decoration: none; 
 }
 
 .main_page_grid {
@@ -70,15 +69,30 @@ h4 {
 
 .header_container {
     display: grid;
-    grid-template-columns: 240px auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header_container img{
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
 }
 
 .header_logo {
-    padding: 40px;
+   
+    margin: auto;
+    display: block;
 }
 
 .header_text {
     text-align: center;
+    padding: 20px;
+}
+
+.header_text a {
+    text-align: center;
+    text-decoration: none;
 }
 
 .footer {
